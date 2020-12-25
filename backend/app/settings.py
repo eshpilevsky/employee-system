@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "employee",
     "storages",
+    "drf_yasg",
     "rest_framework",
     "mapwidgets",
     "django.contrib.gis",
