@@ -8,15 +8,9 @@ from employee.views import EmployeesList, BranchesList
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Amber Streaming API",
+        title="Employee management API",
         default_version='v1',
-        description="""
-                    Amber Streaming API documentation.
-                    The endpoints requires a JWT Token. You can use the username: 'admin' and password: 'admin' to get the authentication token through the /token endpoint.
-                    Once you get the token, you should pass the header 'Authorization: Bearer <your-token-here>' in the 'Authorization' header. The token is valid during 5 minutes.
-                    Note: the trailing slashes at the endpoints are optional.
-                    """,
-        contact=openapi.Contact(email="y.shpileuski@arateg.com"),
+        contact=openapi.Contact(email="eshpilevsky@icloud.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
